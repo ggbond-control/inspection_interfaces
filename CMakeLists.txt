@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RouteStatus.msg"
   "msg/EventField.msg"
   "msg/PlatformEvent.msg"
+  "msg/LocalizationInitStatus.msg"
   "srv/StartRoute.srv"
   "srv/GetStatus.srv"
   "srv/ValidateRouteWaypoints.srv"
