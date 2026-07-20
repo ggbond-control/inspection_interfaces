@@ -10,6 +10,7 @@ bool start_recording           # 仅在 mode=video 时有效: true=开始录像,
 ---
 bool success
 string error_message
+string[] media_uris
 ---
 string state
 float32 progress

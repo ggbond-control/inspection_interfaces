@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/StartRoute.srv"
   "srv/GetStatus.srv"
   "srv/ValidateRouteWaypoints.srv"
+  "srv/SwitchRobotMode.srv"
   "srv/NavigationTask.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs
 )
