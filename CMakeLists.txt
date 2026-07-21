@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ValidateRouteWaypoints.srv"
   "srv/SwitchRobotMode.srv"
   "srv/NavigationTask.srv"
+  "srv/LocalPlannerConfigure.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs
 )
 

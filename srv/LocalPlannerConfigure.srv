@@ -1,0 +1,15 @@
+uint8 YAW_REQUIRE_FINAL=0
+uint8 YAW_IGNORE_FINAL=1
+
+uint8 OBSTACLE_AVOID=0
+uint8 OBSTACLE_STOP=1
+
+uint64 task_id
+uint64 segment_id
+bool reset_task_state
+uint8 terminal_yaw_policy
+float64 terminal_xy_tolerance
+uint8 obstacle_policy
+---
+bool success
+string message
