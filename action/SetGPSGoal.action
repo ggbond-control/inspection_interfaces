@@ -1,0 +1,22 @@
+# Timestamp and reference frame for this GPS goal.
+# header.stamp is the goal time.
+# header.frame_id identifies the reference frame used for orientation.
+std_msgs/Header header
+
+# Latitude [degrees]. Positive is north of the equator; negative is south.
+float64 latitude
+
+# Longitude [degrees]. Positive is east of the prime meridian; negative is west.
+float64 longitude
+
+# Altitude [m] above the WGS 84 ellipsoid.
+float64 altitude
+
+# Orientation as a quaternion relative to header.frame_id.
+geometry_msgs/Quaternion orientation
+---
+bool success
+string message
+---
+# Remaining distance to the goal in meters when available; quiet NaN otherwise.
+float64 distance_remaining

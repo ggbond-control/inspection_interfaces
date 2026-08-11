@@ -10,6 +10,7 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/CaptureMedia.action"
   "action/CenterGimbalAndCapture.action"
+  "action/SetGPSGoal.action"
   "msg/TaskState.msg"
   "msg/TaskReport.msg"
   "msg/RouteStatus.msg"
@@ -22,7 +23,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SwitchRobotMode.srv"
   "srv/NavigationTask.srv"
   "srv/LocalPlannerConfigure.srv"
-  "srv/SetGPSGoal.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
