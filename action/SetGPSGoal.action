@@ -14,6 +14,10 @@ float64 altitude
 
 # Orientation as a quaternion relative to header.frame_id.
 geometry_msgs/Quaternion orientation
+
+# True when the downstream navigation bridge must not align the robot to the
+# requested orientation after reaching this goal.
+bool skip_yaw_alignment
 ---
 bool success
 string message
