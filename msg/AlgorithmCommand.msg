@@ -1,0 +1,11 @@
+string command
+string tid
+string bid
+string request_id
+uint32 task_id
+string algorithm_code
+string request_params_json
+string video_stream_url
+float64 callback_interval_seconds
+bool streaming
+string reason

@@ -1,0 +1,12 @@
+string event_type
+string state
+string tid
+string bid
+string request_id
+uint32 task_id
+string algorithm_code
+bool streaming
+uint32 last_sequence
+string reason
+string error_code
+string error_message

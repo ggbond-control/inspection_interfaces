@@ -17,12 +17,16 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/EventField.msg"
   "msg/PlatformEvent.msg"
   "msg/LocalizationInitStatus.msg"
+  "msg/AlgorithmCommand.msg"
+  "msg/AlgorithmSessionEvent.msg"
+  "msg/AlgorithmResult.msg"
   "srv/StartRoute.srv"
   "srv/GetStatus.srv"
   "srv/ValidateRouteWaypoints.srv"
   "srv/SwitchRobotMode.srv"
   "srv/NavigationTask.srv"
   "srv/LocalPlannerConfigure.srv"
+  "srv/AckAlgorithmResult.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
