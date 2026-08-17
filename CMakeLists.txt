@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/NavigationTask.srv"
   "srv/LocalPlannerConfigure.srv"
   "srv/AckAlgorithmResult.srv"
+  "srv/ControlAlarmOutput.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 

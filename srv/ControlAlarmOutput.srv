@@ -1,0 +1,11 @@
+bool active
+string alarm_category
+string message
+string light_color
+string light_mode
+int32 blink_period_ms
+---
+bool success
+bool audio_success
+bool light_success
+string message
