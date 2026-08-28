@@ -28,6 +28,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/LocalPlannerConfigure.srv"
   "srv/AckAlgorithmResult.srv"
   "srv/ControlAlarmOutput.srv"
+  "srv/ControlThermalDetection.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 

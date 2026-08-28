@@ -1,0 +1,9 @@
+bool enable
+bool infrared_measurement
+float64 alarm_threshold_c
+---
+bool success
+bool enabled
+bool threshold_applied
+float64 alarm_threshold_c
+string message
