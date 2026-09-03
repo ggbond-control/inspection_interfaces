@@ -1,0 +1,7 @@
+string local_uri
+string task_id
+uint32 waypoint_id
+---
+bool success
+string public_url
+string message

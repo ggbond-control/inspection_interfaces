@@ -29,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AckAlgorithmResult.srv"
   "srv/ControlAlarmOutput.srv"
   "srv/ControlThermalDetection.srv"
+  "srv/UploadMedia.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
