@@ -1,0 +1,3 @@
+inspection_interfaces/RobotHeartbeat heartbeat
+string online_state
+builtin_interfaces/Time last_receive_time
