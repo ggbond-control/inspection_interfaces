@@ -1,9 +1,9 @@
 uint32 task_id
 string mode                    # photo / video
-string camera_type
+string camera_type              # visible / thermal (or ir) / both; both is photo-only
 uint32 recording_seconds        # 录像时长(秒)，0表示持续录像直到收到停止命令
-uint32 photo_count
-float32 photo_interval_seconds
+uint32 photo_count              # Number of photos per camera; both produces 2 * photo_count files
+float32 photo_interval_seconds  # Interval between photo groups when photo_count > 1
 float32 focal_length
 float32 zoom_level
 bool start_recording           # 仅在 mode=video 时有效: true=开始录像, false=停止录像
