@@ -1,0 +1,14 @@
+# Optional caller-provided identifier. The server creates one when empty.
+string request_id
+
+# Absolute path to the mission JSON file on this server.
+string mission_json_path
+---
+bool success
+string request_id
+string task_plan_json_path
+string message
+---
+string request_id
+string stage
+string message

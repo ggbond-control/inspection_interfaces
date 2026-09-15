@@ -11,6 +11,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/CaptureMedia.action"
   "action/CenterGimbalAndCapture.action"
   "action/SetGPSGoal.action"
+  "action/PlanMission.action"
   "msg/TaskState.msg"
   "msg/TaskReport.msg"
   "msg/RouteStatus.msg"

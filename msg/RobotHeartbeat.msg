@@ -6,3 +6,5 @@ string[] capabilities
 string robot_mode
 string current_task
 string[] remaining_tasks
+bool planning_leader
+uint64 leader_epoch
