@@ -4,7 +4,11 @@ uint64 sequence
 geometry_msgs/PoseStamped pose
 string[] capabilities
 string robot_mode
+string mission_id
+uint64 plan_revision
+string execution_state
 string current_task
 string[] remaining_tasks
+uint64 task_ledger_sequence
 bool planning_leader
 uint64 leader_epoch
