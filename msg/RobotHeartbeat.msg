@@ -1,6 +1,7 @@
 std_msgs/Header header
 string robot_id
 uint64 sequence
+float64 nominal_speed_mps
 geometry_msgs/PoseStamped pose
 string[] capabilities
 string robot_mode
