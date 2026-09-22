@@ -1,14 +1,19 @@
-# Optional caller-provided identifier. The server creates one when empty.
-string request_id
+# Business-unique mission identifier supplied by the caller.
+string mission_id
 
-# Absolute path to the mission JSON file on this server.
+# Absolute path to a mission template JSON file on this server.
+# The template must not contain mission_id; the Action field is authoritative.
 string mission_json_path
 ---
-bool success
+bool accepted
+bool planned
+string mission_id
 string request_id
+uint64 plan_revision
 string task_plan_json_path
 string message
 ---
+string mission_id
 string request_id
 string stage
 string message
