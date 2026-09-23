@@ -13,3 +13,4 @@ string[] remaining_tasks
 uint64 task_ledger_sequence
 bool planning_leader
 uint64 leader_epoch
+string leader_instance_id
