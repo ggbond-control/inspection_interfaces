@@ -17,6 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RouteStatus.msg"
   "msg/EventField.msg"
   "msg/PlatformEvent.msg"
+  "msg/ObstacleEvent.msg"
   "msg/LocalizationInitStatus.msg"
   "msg/AlgorithmCommand.msg"
   "msg/AlgorithmSessionEvent.msg"
