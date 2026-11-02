@@ -1,5 +1,7 @@
 std_msgs/Header header
 string robot_id
+string agent_session_id
+string election_instance_id
 uint64 sequence
 float64 nominal_speed_mps
 geometry_msgs/PoseStamped pose
