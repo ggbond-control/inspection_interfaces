@@ -15,9 +15,10 @@ float64 altitude
 # Orientation as a quaternion relative to header.frame_id.
 geometry_msgs/Quaternion orientation
 
-# True when the downstream navigation bridge must not align the robot to the
-# requested orientation after reaching this goal.
-bool skip_yaw_alignment
+# Same navigation policy as metric waypoints; GPS only changes coordinates.
+string arrival_mode "precise"
+# 0 means use the active motion profile without a route speed cap.
+float64 speed_limit_mps
 ---
 bool success
 string message

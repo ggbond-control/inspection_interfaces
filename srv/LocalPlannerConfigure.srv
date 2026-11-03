@@ -1,14 +1,17 @@
-uint8 YAW_REQUIRE_FINAL=0
-uint8 YAW_IGNORE_FINAL=1
-
 uint8 OBSTACLE_AVOID=0
 uint8 OBSTACLE_STOP=1
 
 uint64 task_id
 uint64 segment_id
 bool reset_task_state
-uint8 terminal_yaw_policy
+# precise / coarse / position_only; independent of coordinate type.
+string arrival_mode "precise"
 float64 terminal_xy_tolerance
+float64 terminal_yaw_tolerance
+# 0 uses the active motion profile; positive values are absolute planar m/s.
+float64 speed_limit_mps
+# ROOT/world pose, in the same coordinates as /odometry_horizon.
+geometry_msgs/PoseStamped terminal_pose
 uint8 obstacle_policy
 ---
 bool success
