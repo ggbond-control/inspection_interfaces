@@ -12,7 +12,6 @@ float64 terminal_yaw_tolerance
 float64 speed_limit_mps
 # ROOT/world pose, in the same coordinates as /odometry_horizon.
 geometry_msgs/PoseStamped terminal_pose
-uint8 obstacle_policy
 ---
 bool success
 string message
