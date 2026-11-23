@@ -6,6 +6,8 @@ uint64 segment_id
 bool reset_task_state
 # precise / coarse / position_only; independent of coordinate type.
 string arrival_mode "precise"
+# forward / reverse; the latter tracks the path tail-first.
+string drive_direction "forward"
 float64 terminal_xy_tolerance
 float64 terminal_yaw_tolerance
 # 0 uses the active motion profile; positive values are absolute planar m/s.
