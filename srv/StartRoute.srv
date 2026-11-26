@@ -1,4 +1,6 @@
 string route_config_path
+# Optional overall inspection task ID; omitted/empty for standalone starts.
+string inspection_task_id
 ---
 bool success
 string message
